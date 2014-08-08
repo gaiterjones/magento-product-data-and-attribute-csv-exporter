@@ -2,7 +2,8 @@
 
 
 ### Synopsis
-A customiseable PHP application to export Magento product data and product attributes
+A customiseable PHP application to export Magento product data and product attributes. Works with Magento CE 1.3-1.9. Supports simple, configurable and grouped products.
+
 
 ### Version
 ***
@@ -40,7 +41,7 @@ $_getProductAttributes - set the array to contain the attributes you want to exp
 	
 Where colour1 will be the name of the exported column and color is the name of the Magento attribute.
 
-Run the application by browsing to it with a web browser or from the comman line using
+Run the application by browsing to it with a web browser or from the command line using
 
 	php export.php debug
 	
